@@ -1,0 +1,107 @@
+<template>
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid slds-border_bottom slds-p-bottom_small">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">
+						<a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+							<span>Member Status</span>
+						</a>
+					</h2>
+				</div>
+				<div class="slds-no-flex">
+					<div class="slds-text-body_small">Last updated 15 Jun 2022</div>
+				</div>
+			</header>
+		</div>
+		<div class="slds-card__body slds-card__body_inner">
+
+			<div class="slds-grid slds-gutters slds-text-align_center">
+				<div class="c-flex slds-col slds-size_1-of-5 slds-border_right">
+					<img style="width:45%;" src="data:image/png;base64,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">
+					<div class="c-subtitle" style="margin-top: 0;">LIFETIME</div>
+				</div>
+				<div class="c-flex slds-col slds-size_2-of-5 slds-border_right">
+					<div class="c-title">13093</div>
+					<div class="c-subtitle">AVAILABLE POINTS</div>
+				</div>
+				<div class="c-flex slds-col slds-size_2-of-5">
+					<div class="c-title">1.57</div>
+					<div class="c-subtitle">REDEEMED REWARDS (PAST 30 DAYS)</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<hr>
+
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid slds-border_bottom slds-p-bottom_small">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">
+						<a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+							<span>Passenger Stats</span>
+						</a>
+					</h2>
+				</div>
+			</header>
+		</div>
+		<div class="slds-card__body slds-card__body_inner">
+
+			<div class="slds-grid slds-gutters slds-text-align_center">
+				<div class="c-flex slds-col slds-size_1-of-4">
+					<div class="c-title" style="color: #000;">0.5</div>
+					<div class="c-subtitle">LIFETIME</div>
+				</div>
+				<div class="c-flex slds-col slds-size_1-of-4">
+					<div class="c-title" style="color: #000;">1.0</div>
+					<div class="c-subtitle">30 DAYS</div>
+				</div>
+				<div class="c-flex slds-col slds-size_1-of-4 slds-border_right">
+					<div class="c-title" style="color: #000;">1.57</div>
+					<div class="c-subtitle">14 DAYS</div>
+				</div>
+				<div class="c-flex slds-col slds-size_1-of-4">
+					<div class="c-title">1.57</div>
+					<div class="c-subtitle">CREDIT (SGD)</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<hr>
+
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">
+						<a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+							<span>Customer 360</span>
+						</a>
+					</h2>
+				</div>
+			</header>
+		</div>
+		<div class="slds-card__body slds-card__body_inner" style="width: 60%;padding-top: 10px;">
+			<div class="slds-grid slds-gutters">
+				<div class="slds-col">
+					<img src="https://assets.grab.com/wp-content/uploads/sites/4/2021/03/31102607/home-icon-Food.svg">
+				</div>
+				<div class="slds-col">
+					<img src="https://assets.grab.com/wp-content/uploads/sites/4/2021/03/31102618/home-icon-Mart.svg">
+				</div>
+				<div class="slds-col">
+					<img src="https://assets.grab.com/wp-content/uploads/sites/4/2021/03/31102636/home-icon-Transport.svg">
+				</div>
+				<div class="slds-col">
+					<img src="https://assets.grab.com/wp-content/uploads/sites/4/2021/03/31102622/home-icon-Pay.svg">
+				</div>
+			</div>
+		</div>
+	</article>
+
+</template>
